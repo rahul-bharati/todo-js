@@ -1,0 +1,45 @@
+:root {
+  --main-background-color: #ebebeb;
+}
+
+html, body {
+  background-color: var(--main-background-color);
+}
+
+.card-title {
+  font-size: 18px;
+  color: #3d3d3d;
+}
+
+.aside {
+  min-height: 98vh;
+}
+
+.card {
+  height: 100%;
+}
+
+.list {
+  margin-top: 10px;
+}
+
+.list .list-item {
+  padding: 4px 8px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+
+  .bi {
+    margin-right: 5px;
+    font-size: 14px;
+  }
+
+  label {
+    font-size: 12px;
+  }
+}
+
+.list .list-item.active,
+.list .list-item:hover {
+  background-color: var(--main-background-color);
+}
